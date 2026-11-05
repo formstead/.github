@@ -1,16 +1,13 @@
 # Formstead
 
-**Your forms. Your infrastructure.**
+Formstead is developing a self-hosted backend for forms on static sites and web apps. The plan is a standalone PHP application for shared hosting. Install it from a ZIP through a web installer, connect your own forms, and manage submissions in a private inbox on your server.
 
-Formstead is an open-source WordPress plugin that receives form submissions from static and headless sites. Build your frontend with plain HTML, Astro, Next.js, or another framework. Use your existing WordPress install to store submissions, read them in a private inbox, and send email notifications or signed webhooks.
+## WordPress plugin
 
-Your frontend stays yours. Submissions live on your infrastructure.
+The original Formstead plugin receives submissions from external sites and stores them in an existing WordPress installation. Development of the plugin has ended. The source, documentation, and release downloads remain available.
 
-- [Download Formstead](https://github.com/formstead/formstead/releases/latest) — choose the installable `formstead-1.0.0.zip` asset for version 1.0.0.
-- [Create your first form](https://github.com/formstead/formstead/blob/main/docs/getting-started.md)
-- [Read the documentation](https://github.com/formstead/formstead#readme)
-- Try an example: [HTML](https://github.com/formstead/formstead/tree/main/examples/html), [Astro](https://github.com/formstead/formstead/tree/main/examples/astro), or [Next.js](https://github.com/formstead/formstead/tree/main/examples/next).
+- [WordPress plugin repository](https://github.com/formstead/formstead-wp)
+- [Download the WordPress plugin, version 1.0.0](https://github.com/formstead/formstead-wp/releases/download/v1.0.0/formstead-1.0.0.zip)
+- [WordPress plugin setup guide](https://github.com/formstead/formstead-wp/blob/main/docs/getting-started.md)
 
-Found a bug or have an idea? [Open an issue](https://github.com/formstead/formstead/issues). Want to contribute? Start with the [contributing guide](https://github.com/formstead/formstead/blob/main/CONTRIBUTING.md).
-
-Contact: [hello@formstead.dev](mailto:hello@formstead.dev). Report vulnerabilities privately to [security@formstead.dev](mailto:security@formstead.dev).
+Contact [hello@formstead.dev](mailto:hello@formstead.dev). Report vulnerabilities privately to [security@formstead.dev](mailto:security@formstead.dev).
